@@ -1,3 +1,12 @@
-#header {
-    
+body {
+    color: #141313;
+    background-color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
 }
+
+
+.header {
+        color: #ffff00;
+        background-color: #485c85;
+        font-family: 'Nova Square', sans-serif;
+      }
