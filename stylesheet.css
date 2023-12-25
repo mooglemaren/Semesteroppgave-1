@@ -1,12 +1,17 @@
 body {
-    color: #141313;
-    background-color: #ffffff;
-    font-family: 'Josefin Sans', sans-serif;
+  color: #0a0a0a;
+  background-color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
 }
 
+.menubar {
+  color: #00ffff;
+  background-color: #2e4e47;
+  font-family: "Nova Square", sans-serif;
+  text-decoration: none;
+  width: 100%;
+}
 
-.header {
-        color: #ffff00;
-        background-color: #485c85;
-        font-family: 'Nova Square', sans-serif;
-      }
+a {
+    color: inherit;
+}
