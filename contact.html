@@ -8,7 +8,21 @@
 <body>
     <h1>Do you have a question that burns brighter than the stars? Let us know down below!</h1>
 
-    Need form here.
+    <div class="formcontainer">
+        <h1 class="form-title">Contact Us</h1>
+        <form action="submit_form.php" method="post" class="contact-form">
+          <label for="name" class="form-label">Name:</label>
+          <input type="text" class="form-input" name="name" required>
+      
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-input" name="email" required>
+      
+          <label for="message" class="form-label">Message:</label>
+          <textarea class="form-input" name="message" rows="4" required></textarea>
+      
+          <button type="submit" class="form-button">Submit</button>
+        </form>
+      </div>
 
     You can also give us a call within our opening hours at +47 555 55 555
 

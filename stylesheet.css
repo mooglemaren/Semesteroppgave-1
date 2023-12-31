@@ -5,13 +5,31 @@ body {
 }
 
 .menubar {
-  color: #00ffff;
-  background-color: #2e4e47;
-  font-family: "Nova Square", sans-serif;
+  color: #ffffff;
+  background-color: #796d17;
+  font-family: "Josefin Sans", sans-serif;
   text-decoration: none;
   width: 100%;
 }
 
 a {
     color: inherit;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footerbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.footersection {
+  flex: 1;
+}
+
+.skeletons-image {
+  width: 500px;
 }
