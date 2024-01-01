@@ -63,7 +63,8 @@ padding: 20px 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 350px;
+  height: 400px;
+  padding-right: 60px;
 }
 
 .form {
@@ -136,6 +137,12 @@ padding: 10px;
 .opener {
   display: flex;
   justify-content: center;
+}
+
+.indexcontainer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 60px;
 }
 
 .introtext {
