@@ -4,30 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Nova+Square&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="stylesheet.css"> 
 </head>
 <body>
+  <header>
+    <div class="menubar">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="exhibit.html">Our Exhibitions</a></li>
+        <li><a href="visit.html">Visit us</a></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
     <h1>Do you have a question that burns brighter than the stars? Let us know down below!</h1>
 
-    <div class="formcontainer">
-        <h1 class="form-title">Contact Us</h1>
-        <form action="submit_form.php" method="post" class="contact-form">
-          <label for="name" class="form-label">Name:</label>
-          <input type="text" class="form-input" name="name" required>
+    <section class="form">
+      <form action="index.html" method="post">
+        <ul>
+          <li>
+            <label for="name">Name:</label>
+            <input type="text" name="user_name" />
+          </li>
+          <li>
+            <label for="mail">E-mail:</label>
+            <input type="email" name="user_email" />
+          </li>
+          <li>
+            <label for="msg">Message:</label>
+            <textarea name="user_message"></textarea>
+          </li>
+          <button id="sendbutton" class="button" type="submit">Send</button>
+        
+        </ul>
+        
       
-          <label for="email" class="form-label">Email:</label>
-          <input type="email" class="form-input" name="email" required>
-      
-          <label for="message" class="form-label">Message:</label>
-          <textarea class="form-input" name="message" rows="4" required></textarea>
-      
-          <button type="submit" class="form-button">Submit</button>
-        </form>
+      </form>
+    </section>
+<div class="morecontact">
+    <p>You can also give us a call within our opening hours at +47 555 55 555
+    <br>
+    Or you can send us an email at <a href="index.html">hello@scienceforall.com</a>
+  </p>
+  </div>
+  <footer>
+    <div class="menubar2">
+    <div class="footersection">
+      <ul>
+        <li>Monday: Closed</li>
+        <li>Tuesday: 10:00 - 16:00</li>
+        <li>Wednesday: 10:00 – 16:00</li>
+        <li>Thursday: 10:00 – 16:00</li>
+        <li>Friday: 10:00 – 19:00</li>
+        <li>Saturday: 9:00 – 16:00</li>
+        <li>Sunday: 9:00 – 13:00</li>
+      </ul>
+    </div class="footersection">
+    <div class="footersection">
+      <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="exhibit.html">Our Exhibitions</a></li>
+            <li><a href="visit.html">Visit us</a></li>
+                    
+          </ul>
+        </nav>
       </div>
-
-    You can also give us a call within our opening hours at +47 555 55 555
-
-    Opening hours:
-
-    Or you can send us an email at hello@scienceforall.com
-</body>
+      <div class="footersection2">Subscribe to our newsletter! 
+        <label for="email">Email:</label>
+        <input type="text" name="emailadr" />
+      </div>
+  </footer>
+  </body>
 </html>

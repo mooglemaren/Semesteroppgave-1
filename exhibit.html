@@ -4,13 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exhibitions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Nova+Square&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="stylesheet.css"> 
   </head>
   <body>
-    <div>
+    <header>
+      <div class="menubar">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="exhibit.html">Our Exhibitions</a></li>
+          <li><a href="visit.html">Visit us</a></li>
+        </ul>
+      </nav>
+    </div>
+    </header>
+    <div class="spacescontainer">
       <h1>Exhibition Spaces</h1>
-
+<section class="exhibcontainer">
       <h2>Cosmology</h2>
-
+      <p class="spacestext">
       Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky
       Above Us’, explores the night sky and what we can see and know about the
       universe around us. We’ll locate the various constellations and galaxies
@@ -18,9 +37,12 @@
       stars to travel by. Follow the journey of our solar exploration: from
       early Arab traders, to Galileo’s telescope, to the latest exploration of
       the planets in our solar system.
-
+    </p>
+      <img src="media/celso-405219.jpg" alt="depiction of moon phases" class="spacespics">
+    </section>
+    <section class="exhibcontainer">
       <h2>Evolution</h2>
-
+<p class="spacestext">
       For centuries, philosophers and scientists have wrestled with the question
       of our origins. Where do we come from and how did we get here? Since
       Darwin proposed his theory of evolution we have had a framework for
@@ -29,8 +51,12 @@
       time. You can also take some time to meet a few of the creatures who
       didn’t survive, including our Woolly Mammoth, the Dodos, and a number of
       dinosaurs too.
-
+    </p>
+      <img src="media/skeleton-414543_1920.jpg" alt="picture of skeletal forms" class="spacespics">
+    </section>
+<section class="exhibcontainer">
       <h2>Biology and Medicine</h2>
+      <p class="spacestext">
       From micro-organisms to the human body, major breakthroughs in biology are
       offering us unique insights into the great wonders of the tiny world. For
       many people their life expectancy is much longer and their quality of life
@@ -40,16 +66,22 @@
       first heart transplant. Many of our great medicinal discoveries have come
       not only from the lab, but also from observing animals in the wild. Often
       our fellow creatures have beat us to it.
-
+      </p>
+      <img src="media/heart-2607178_1920.jpg" alt="depiction of a human heart" class="spacespics">
+    </section>
+    <section class="exhibcontainer">
       <h2>Robotics and AI</h2>
-
+      <p class="spacestext">
       The information revolution is here and robotics and artificial
       intelligence are the science of the future. From useful home applications
       of AI to industrial uses of robotics, the future is here. You can even say
       hello and shake the hand of Rob the Robot.
-
+      </p>
+      <img src="media/william-bout-264826.jpg" alt="geometrical abstract" class="spacespics">
+    </section>
+    <section class="exhibcontainer">
       <h2>Ecology</h2>
-
+      <p class="spacestext">
       As we learn more and more of the impact humans are having on the planet,
       the more important it becomes that scientists explore how to create a
       sustainable future not just for humans but for the whole planet. In our
@@ -57,6 +89,38 @@
       including global warming, extinction of species, and pollution. But we
       also focus on the positive ways we can all contribute to a brighter
       future.
+      </p>
+      <img src="media/genoa-956405_1920.jpg" alt="a largescale model of an ant" class="spacespics">
+    </section>
     </div>
+    <footer>
+      <div class="menubar2">
+      <div class="footersection">
+        <ul>
+          <li>Monday: Closed</li>
+          <li>Tuesday: 10:00 - 16:00</li>
+          <li>Wednesday: 10:00 – 16:00</li>
+          <li>Thursday: 10:00 – 16:00</li>
+          <li>Friday: 10:00 – 19:00</li>
+          <li>Saturday: 9:00 – 16:00</li>
+          <li>Sunday: 9:00 – 13:00</li>
+        </ul>
+      </div class="footersection">
+      <div class="footersection">
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+              <li><a href="exhibit.html">Our Exhibitions</a></li>
+              <li><a href="visit.html">Visit us</a></li>
+                      
+            </ul>
+          </nav>
+        </div>
+        <div class="footersection2">Subscribe to our newsletter! 
+          <label for="email">Email:</label>
+          <input type="text" name="emailadr" />
+        </div>
+    </footer>
   </body>
 </html>
